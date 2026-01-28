@@ -1,5 +1,6 @@
 import { MapPin, Bell } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { LanguageSelector } from '@/components/LanguageSelector';
 
 interface AppHeaderProps {
   title?: string;
@@ -14,6 +15,11 @@ export function AppHeader({
 }: AppHeaderProps) {
   return (
     <header className="app-header">
+      {/* Language selector row */}
+      <div className="flex justify-end mb-2">
+        <LanguageSelector />
+      </div>
+      
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-1">
           <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
