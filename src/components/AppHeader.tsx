@@ -8,7 +8,7 @@ interface AppHeaderProps {
 }
 
 export function AppHeader({ 
-  title = "किसान सेवा", 
+  title = "किसान साथी",
   showLocation = true,
   location = "गोपालपुर, उत्तर प्रदेश" 
 }: AppHeaderProps) {
