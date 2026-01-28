@@ -315,7 +315,7 @@ export const usedEquipmentListings: UsedEquipmentListing[] = [
     location: 'गोपालपुर',
     ownerName: 'राजेश कुमार',
     ownerPhone: '+91 98765 11111',
-    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1605338198618-a31086af3782?w=400&h=300&fit=crop'
   },
   {
     id: 'U002',
@@ -329,7 +329,7 @@ export const usedEquipmentListings: UsedEquipmentListing[] = [
     location: 'सूर्यनगर',
     ownerName: 'विनोद सिंह',
     ownerPhone: '+91 99887 22222',
-    image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?w=400&h=300&fit=crop'
   },
   {
     id: 'U003',
@@ -342,7 +342,7 @@ export const usedEquipmentListings: UsedEquipmentListing[] = [
     location: 'कृष्णापुर',
     ownerName: 'सुनील पटेल',
     ownerPhone: '+91 88776 33333',
-    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=300&fit=crop',
     description: '2018 या बाद का हार्वेस्टर खरीदना है'
   },
   {
@@ -357,6 +357,6 @@ export const usedEquipmentListings: UsedEquipmentListing[] = [
     location: 'राजपुर',
     ownerName: 'मनोज यादव',
     ownerPhone: '+91 99001 44444',
-    image: 'https://images.unsplash.com/photo-1589923188651-268a9765e432?w=400&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1530267981375-f0de937f5f13?w=400&h=300&fit=crop'
   }
 ];
