@@ -329,7 +329,7 @@ export const usedEquipmentListings: UsedEquipmentListing[] = [
     location: 'सूर्यनगर',
     ownerName: 'विनोद सिंह',
     ownerPhone: '+91 99887 22222',
-    image: 'https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?w=400&h=300&fit=crop'
+    image: 'https://images.unsplash.com/photo-1586771107445-d3ca888129ce?w=400&h=300&fit=crop'
   },
   {
     id: 'U003',
