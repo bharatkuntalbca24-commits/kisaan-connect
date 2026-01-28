@@ -285,3 +285,78 @@ export const governmentSchemes = [
     link: '#'
   }
 ];
+
+export interface UsedEquipmentListing {
+  id: string;
+  type: 'sell' | 'buy';
+  name: string;
+  nameHindi: string;
+  brand: string;
+  year: number;
+  price: number;
+  condition?: string;
+  location: string;
+  ownerName: string;
+  ownerPhone: string;
+  image: string;
+  description?: string;
+}
+
+export const usedEquipmentListings: UsedEquipmentListing[] = [
+  {
+    id: 'U001',
+    type: 'sell',
+    name: 'Mahindra 475 DI',
+    nameHindi: 'महिंद्रा 475 DI ट्रैक्टर',
+    brand: 'Mahindra',
+    year: 2019,
+    price: 350000,
+    condition: 'अच्छी हालत',
+    location: 'गोपालपुर',
+    ownerName: 'राजेश कुमार',
+    ownerPhone: '+91 98765 11111',
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop'
+  },
+  {
+    id: 'U002',
+    type: 'sell',
+    name: 'Rotavator 6ft',
+    nameHindi: 'रोटावेटर 6 फीट',
+    brand: 'Shaktiman',
+    year: 2021,
+    price: 85000,
+    condition: 'नया जैसा',
+    location: 'सूर्यनगर',
+    ownerName: 'विनोद सिंह',
+    ownerPhone: '+91 99887 22222',
+    image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=400&h=300&fit=crop'
+  },
+  {
+    id: 'U003',
+    type: 'buy',
+    name: 'Harvester',
+    nameHindi: 'हार्वेस्टर चाहिए',
+    brand: 'कोई भी',
+    year: 2018,
+    price: 500000,
+    location: 'कृष्णापुर',
+    ownerName: 'सुनील पटेल',
+    ownerPhone: '+91 88776 33333',
+    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&h=300&fit=crop',
+    description: '2018 या बाद का हार्वेस्टर खरीदना है'
+  },
+  {
+    id: 'U004',
+    type: 'sell',
+    name: 'Swaraj 735 FE',
+    nameHindi: 'स्वराज 735 FE ट्रैक्टर',
+    brand: 'Swaraj',
+    year: 2017,
+    price: 280000,
+    condition: 'ठीक हालत',
+    location: 'राजपुर',
+    ownerName: 'मनोज यादव',
+    ownerPhone: '+91 99001 44444',
+    image: 'https://images.unsplash.com/photo-1589923188651-268a9765e432?w=400&h=300&fit=crop'
+  }
+];
